@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.todo.bc.minitwitter">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name=".common.MyApp"
@@ -13,10 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.DashboardActivity"
-            android:label="@string/title_activity_dashboard"></activity>
+            android:name=".ui.MainActivity"
+            android:label="@string/title_activity_dashboard" />
         <activity android:name=".ui.SingOutActivity" />
-        <activity android:name=".ui.MainActivity">
+        <activity android:name=".ui.DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
