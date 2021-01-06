@@ -31,9 +31,7 @@ public class DashboardActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
 
 
-        String token = SharePrefencesManager.getSharePreferenceString(Constants.PREF_TOKEN);
 
-        Toast.makeText(this, token, Toast.LENGTH_SHORT).show();
 
 
     }
